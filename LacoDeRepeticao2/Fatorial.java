@@ -8,9 +8,11 @@ public class Fatorial {
 		
 		int numero = 0, resultado = 1;
 		
+		//Leitura dos valores
 		System.out.println("Coloque um numero para calcular o fatorial");
 		numero = ler.nextInt();
 		
+		//Faz a Fatoracao
 		while(numero > 0) {
 			resultado *= numero;
 			numero--;

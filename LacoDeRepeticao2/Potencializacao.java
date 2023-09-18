@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Potencializacao {
 
 	public static void main(String[] args) {
-		//iniciza o Scanner
+		//inicializa o Scanner
 		Scanner ler = new Scanner(System.in);
 		
 		int base, expoente = 0, resultado = 1;
@@ -14,7 +14,7 @@ public class Potencializacao {
 		System.out.println("Informe um Expoente Positivo");
 		expoente = ler.nextInt();
 		
-		//Laco for para fazer a potencializacao
+		//For para fazer a potencializacao
 		for (int i = expoente; i > 0; i--) {
 			resultado *= base;
 		}

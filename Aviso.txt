@@ -1,1 +1,1 @@
-Caso a pasta esteja sem o arquivo dupla.txt é porque eu realizei os exercicios dessa pasta sozinho
+Caso a pasta esteja sem o arquivo dupla.txt é porque eu realizei os exercicios desta pasta sozinho

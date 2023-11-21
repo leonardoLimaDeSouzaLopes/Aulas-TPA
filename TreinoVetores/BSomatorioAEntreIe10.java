@@ -9,9 +9,9 @@ public class BSomatorioAEntreIe10 {
 
 		// Cria os Vetores com seu Tamanho definido por uma Constante
 		final int TAMANHO = 10;
-		double a[] = new double[TAMANHO], b[] = new double[TAMANHO];
+		int a[] = new int[TAMANHO], b[] = new int[TAMANHO];
 
-		// Le os 10 Numeros e os poe em A[]
+		// Le os Numeros e os poe em A[]
 		System.out.println("Diga os numeros de A[]");
 		for (int i = 0; i < a.length; i++) {
 			System.out.println("Informe o " + (i + 1) + "o numero");
@@ -34,6 +34,6 @@ public class BSomatorioAEntreIe10 {
 
 		// Destroi o Objeto ler
 		ler.close();
-		
+
 	}
 }

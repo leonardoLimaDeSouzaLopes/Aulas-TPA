@@ -4,12 +4,14 @@ public class FatorialA {
 
 	public static void main(String[] args) {
 
+		// Cria os Objeto Scanner
 		Scanner ler = new Scanner(System.in);
 
+		// Cria o Vetore com seu Tamanho definido por uma Constante
 		final int TAMANHO = 15;
 		int a[] = new int[TAMANHO], b[] = new int[TAMANHO];
 
-		// Le os 15 Numeros e os poe em A[], tambem calcula o B[]
+		// Le os Numeros e os poe em A[], tambem calcula o B[]
 		System.out.println("Diga os numeros de A[]");
 		for (int i = 0; i < a.length; i++) {
 			System.out.println("Informe o " + (i + 1) + "o numero");

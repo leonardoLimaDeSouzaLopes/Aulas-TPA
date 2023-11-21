@@ -11,7 +11,7 @@ public class RelacaoPares {
 		final int TAMANHO = 11;
 		int a[] = new int[TAMANHO];
 
-		// Le os 11 Numeros e os poe em A[]
+		// Le os Numeros e os poe em A[]
 		for (int i = 0; i < a.length; i++) {
 			System.out.println("Informe o " + (i + 1) + "o numero");
 			a[i] = ler.nextInt();
@@ -20,12 +20,12 @@ public class RelacaoPares {
 		for (int i = 0; i < a.length; i++) {
 			// Mostra A[i]
 			System.out.print(a[i] + ": ");
-			
-			//Mostra a relacao de todos os pares entre 0 e A[i]
+
+			// Mostra a relacao de todos os pares entre 0 e A[i]
 			for (int j = 0; j < a[i] - 1; j += 2) {
-				System.out.print("P(" + j/2 + ") = " + j + ", ");
+				System.out.print("P(" + j / 2 + ") = " + j + ", ");
 			}
-			System.out.println("P(" + ((int) a[i]/2) + ") = " + ((int) a[i]/2) * 2);
+			System.out.println("P(" + ((int) a[i] / 2) + ") = " + ((int) a[i] / 2) * 2);
 		}
 
 		// Destroi o Objeto ler

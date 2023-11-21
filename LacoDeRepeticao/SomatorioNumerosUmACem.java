@@ -1,11 +1,19 @@
 public class SomatorioNumerosUmACem {
 
 	public static void main(String[] args) {
+
+		int n = 1, r = 0;
+
+		while (n <= 100) {
+
+			r += n;
+
+			n++;
+
+		}
 		
-		int n = 1, N = 100;
-		
-		int r = (n + N)*N/2;
-		
+		//r = (n + N)*N/2; F
+
 		System.out.println(r);
 	}
 

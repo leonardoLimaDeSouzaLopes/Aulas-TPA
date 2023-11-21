@@ -12,14 +12,14 @@ public class Intercecao {
 		int a[] = new int[TAMANHO];
 		int b[] = new int[TAMANHO];
 
-		// Le os 10 Numeros e os poe em A[]
+		// Le os Numeros e os poe em A[]
 		System.out.println("Diga os numeros de A[]");
 		for (int i = 0; i < a.length; i++) {
 			System.out.println("Informe o " + (i + 1) + "o numero");
 			a[i] = ler.nextInt();
 		}
 
-		// Le os 10 Numeros e os poe em B[]
+		// Le os Numeros e os poe em B[]
 		System.out.println("Diga os numeros de B[]");
 		for (int i = 0; i < b.length; i++) {
 			System.out.println("Informe o " + (i + 1) + "o numero");
@@ -37,7 +37,7 @@ public class Intercecao {
 				}
 			}
 		}
-		
+
 		// Cria o Vetor C[]
 		int c[] = new int[i];
 		
@@ -52,7 +52,10 @@ public class Intercecao {
 		for (int j = 0; j < c.length - 1; j++) {
 			System.out.print(c[j] + ", ");
 		}
-		System.out.println(c[c.length - 1] + "]");
+		if (c.length != 0) {
+			System.out.print(c[c.length - 1]);
+		}
+		System.out.println("]");
 		
 		// Destroi o Objeto ler
 		ler.close();
